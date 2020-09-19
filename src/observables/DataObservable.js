@@ -4,7 +4,7 @@ import { getRandomArbitrary, eachValueIsNumber } from "../helpers/functions";
 
 const dataObservable = new Observable((subscriber) => {
   const DATA_IS_NOT_AVAILABLE = "N/A";
-  const MIN_EMITTING_INTERVAL = 1000;
+  const MIN_EMITTING_INTERVAL = 100;
   const MIN_SEND_DATA_TIME = 100;
   const MAX_SEND_DATA_TIME = 2000;
   const MAX_DATA_WAITING_TIME = 1000;
@@ -54,8 +54,8 @@ const dataObservable = new Observable((subscriber) => {
   };
 
   emitData("temperature", 17, 23);
-  emitData("airPressure", 17, 23);
-  emitData("humidity", 17, 23);
+  emitData("airPressure", 25, 35);
+  emitData("humidity", 20, 60);
 });
 
 export default dataObservable;
