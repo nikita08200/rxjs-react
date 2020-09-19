@@ -1,0 +1,31 @@
+.wrapper {
+  background: #FCFCFC;
+  height: 100vh;
+  width: 100%;
+}
+
+.cards {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid lightsteelblue;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+}
+
+.cardName {
+  font-size: 20px;
+}
+
+.cardValue {
+  color: slategray;
+  font-weight: 700;
+  padding-top: 20px;
+  font-size: 30px;
+}

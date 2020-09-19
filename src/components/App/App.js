@@ -1,9 +1,9 @@
 import React from "react";
-import "./App.css";
-import dataObservable from "../../observables/DataObservable";
+
+import Dashboard from "../Dashboard/Dashboard";
 
 function App() {
-  return <div></div>;
+  return <Dashboard />;
 }
 
 export default App;
